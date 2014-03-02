@@ -1,5 +1,4 @@
 <html>
-<<<<<<< HEAD
 <body>
 <?php
 
