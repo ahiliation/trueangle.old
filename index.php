@@ -9,11 +9,11 @@
 echo "hello world now";
 
 ?>
-
-A for Apple
-B for Bat
-C for Cat
-
+<ul>
+<li>A for Apple</li>
+<li>B for Bat</li>
+<li>C for Cat</li>
+</ul>
 
 
 </body>
