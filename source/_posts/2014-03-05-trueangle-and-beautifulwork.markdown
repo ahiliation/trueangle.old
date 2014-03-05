@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-<pre style="width:70%">
+<pre>
 ahiliation@pluto:~$ ssh-keygen 
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/ahiliation/.ssh/id_rsa): 
