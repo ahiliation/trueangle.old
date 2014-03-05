@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GNU's Not Unix"
+title: "ssh-keygen — authentication key generation, management and conversion"
 date: 2014-03-05 15:13:09 +0000
 comments: true
 categories: 
