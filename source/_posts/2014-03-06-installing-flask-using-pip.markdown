@@ -5,6 +5,7 @@ date: 2014-03-06 18:01:00 +0000
 comments: true
 categories: 
 ---
+
 <pre>
 $pip install flask
 Downloading/unpacking flask
@@ -39,5 +40,4 @@ Installing collected packages: flask
 Successfully installed flask
 Cleaning up...
 $
-
 </pre>
