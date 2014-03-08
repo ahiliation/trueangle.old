@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-<pre style="width:70%;border-color:#ffb502;border-radius:3%">
+<pre>
 <h2><u>GNU/Linux  or UNIX Parameter</u></h2>
 $cat /proc/sys/kernel/hung_task_timeout_secs
 120
