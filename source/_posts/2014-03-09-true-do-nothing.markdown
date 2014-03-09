@@ -51,7 +51,6 @@ main (int argc, char **argv)
 Recognize --help or --version only if it's the only
 command-line argument.
 <h4><u> Featured Image </u></h4>
-<a href="http://www.beautifulwork.org/wp-content/uploads/2009/11/trueandfalse.png"><img src="http://www.beautifulwork.org/wp-content/uploads/2009/11/trueandfalse.png" alt="" title="trueandfalse" width="406" height="226" class="alignnone size-full wp-image-4936" /></a>
 <h4><u> Related Knowledge </u></h4>
 <pre>
 `true' does  nothing except return  an exit status  of 0,
@@ -61,21 +60,21 @@ although the  shell built-in  command `:' (colon)  may do
 the same thing faster.   In most modern shells, `true' is
 a built-in command,  so when you use `true'  in a script,
 you're probably  using the built-in command,  not the one
-documented here.</pre>
-<pre>
+documented here.
+
 Note,  however, that it  is possible  to cause  `true' to
 exit   with  nonzero   status:  with   the   `--help'  or
 `--version'  option,  and  with standard  output  already
 closed or redirected to a  file that evokes an I/O error.
-For example, using a Bourne-compatible shell:</pre>
-<pre>
+For example, using a Bourne-compatible shell:
  $ ./true --version >&-
      ./true: write error: Bad file number
      $ ./true --version > /dev/full
-     ./true: write error: No space left on device</pre>
-<pre>
+     ./true: write error: No space left on device
+
 This version of `true' is implemented as a C program, and
 is  thus  more secure  and  faster  than  a shell  script
 implementation, and  may safely be used as  a dummy shell
-for the purpose of disabling accounts.</pre>
+for the purpose of disabling accounts.
 source : info coreutils 'true invocation'
+</pre>
