@@ -6,23 +6,24 @@ comments: true
 categories: 
 ---
 
-<h4><u> A UNIX Command </u></h4>
 <pre>
+GNU command
+
 $true
 $echo $?
 0
 $false
 $echo $?
 1
-$</pre>
-<h4><u> UNIX Explanation </u></h4>
-<pre>
+$
+Explanation
+
 true - do nothing, successfully
 exit with a status code indicating success.
 false - do nothing, unsuccessfully
-exit with a status code indicating failure.</pre>
-<h4><u> Related Source Code Exposition</u></h4>
-<pre>
+exit with a status code indicating failure.
+Related Source Code Exposition
+
 int
 main (int argc, char **argv)
 {
@@ -46,13 +47,15 @@ main (int argc, char **argv)
     }
 
   exit (EXIT_STATUS);
-}</pre>
-<h4><u>Source Code Highlight</u></h4>
+}
+
+Source Code Highlight
 Recognize --help or --version only if it's the only
 command-line argument.
-<h4><u> Featured Image </u></h4>
-<h4><u> Related Knowledge </u></h4>
-<pre>
+Featured Image
+FIXME
+Related Knowledge
+
 `true' does  nothing except return  an exit status  of 0,
 meaning "success".  It  can be used as a  place holder in
 shell  scripts  where  a  successful command  is  needed,
@@ -67,6 +70,7 @@ exit   with  nonzero   status:  with   the   `--help'  or
 `--version'  option,  and  with standard  output  already
 closed or redirected to a  file that evokes an I/O error.
 For example, using a Bourne-compatible shell:
+
  $ ./true --version >&-
      ./true: write error: Bad file number
      $ ./true --version > /dev/full
