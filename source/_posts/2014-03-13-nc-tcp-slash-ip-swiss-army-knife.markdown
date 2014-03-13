@@ -10,7 +10,7 @@ A UNIX Command
 
 Window I Server 
 
-<pre>
+<pre style="width:50%">
 $nc -l -p  3333
 hello
 hello
@@ -19,7 +19,7 @@ fine
 </pre>
 
 Window II client
-<pre>
+<pre style="width:50%">
 $nc 127.0.0.1 3333
 hello
 hello
