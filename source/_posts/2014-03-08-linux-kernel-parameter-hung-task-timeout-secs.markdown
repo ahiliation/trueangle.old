@@ -6,11 +6,13 @@ comments: true
 categories: 
 ---
 
-<h2><u>GNU/Linux  or UNIX Parameter</u></h2>
+GNU/Linux  or UNIX Parameter
+<pre>
 $cat /proc/sys/kernel/hung_task_timeout_secs
 120
 $
-<h2><u>Parameter Related</u></h2>
+</pre>
+Parameter Related
 <pre>
 TEST-MAIL1 ~ #dmesg
 [cut]
@@ -42,8 +44,8 @@ Call Trace:
 [<ffffffff81496912>] ? system_call_fastpath+0x16/0x1b
 </pre>
 
-Classroom<br>
-
+Classroom
+<br>
 While  waiting for  read()  or write()  to/from  a file  descriptor
 return, the process  will be put in a special  kind of sleep, known
 as "D"  or "Disk Sleep". This  is special, because  the process can
