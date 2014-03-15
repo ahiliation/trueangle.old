@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Linux kernel parameter – hung_task_timeout_secs"
+title: "LINUX KERNEL PARAMETER  hung_task_timeout_secs"
 date: 2014-03-08 17:03:59 +0000
 comments: true
 categories: 
 ---
 
-<pre>
 <h2><u>GNU/Linux  or UNIX Parameter</u></h2>
 $cat /proc/sys/kernel/hung_task_timeout_secs
 120
 $
 <h2><u>Parameter Related</u></h2>
+<pre>
 TEST-MAIL1 ~ #dmesg
 [cut]
 "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
@@ -40,7 +40,10 @@ Call Trace:
 [<ffffffff81170c24>] ? dnotify_flush+0x54/0x110
 [<ffffffff81133eec>] ? filp_close+0x5c/0x90
 [<ffffffff81496912>] ? system_call_fastpath+0x16/0x1b
-<h2><u>Classroom</u></h2>
+</pre>
+
+Classroom<br>
+
 While  waiting for  read()  or write()  to/from  a file  descriptor
 return, the process  will be put in a special  kind of sleep, known
 as "D"  or "Disk Sleep". This  is special, because  the process can
@@ -49,7 +52,8 @@ waiting for  a return from  ioctl() would also  be put to  sleep in
 this manner.
 
 source :http://stackoverflow.com/questions/1475683/linux-process-states
-<h2><u>Parameter Code Internals</u></h2>
+Parameter Code Internals
+<pre>
 /*
  * Check whether a TASK_UNINTERRUPTIBLE does not get woken up for
  * a really long time (120 seconds). If that happens, print out
@@ -87,7 +91,10 @@ static void check_hung_uninterruptible_tasks(unsigned long timeout)
 	rcu_read_unlock();
 }
 
-<h2><u>Related From Research Paper</u></h2>
+</pre>
+
+Related From Research Paper<br>
+
 Kernel  data collection  tools. Several  monitoring  facilities are
 provided by  the Linux  kernel, which have  been exploited  in this
 work. In  particular, we use  KProbes which inserts  breakpoints in
@@ -118,6 +125,3 @@ source : http://tinyurl.com/7pt5j9a
 
 Assessment and Improvement of Hang Detection in the Linux Operating System
 2009 28th IEEE International Symposium on Reliable Distributed Systems
-
-
-</pre>
