@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LINUX KERNEL PARAMETER  hung_task_timeout_secs"
+title: "Linux kernel parameter  hung_task_timeout_secs"
 date: 2014-03-08 17:03:59 +0000
 comments: true
 categories: 
@@ -54,6 +54,7 @@ waiting for  a return from  ioctl() would also  be put to  sleep in
 this manner.
 
 source :http://stackoverflow.com/questions/1475683/linux-process-states
+<br>
 Parameter Code Internals
 <pre>
 /*
