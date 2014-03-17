@@ -121,7 +121,7 @@ Copy the standard input into  each of the NFILES files in
 FILES  and  into the  standard  output.   Return true  if
 successful.
 
-Featured Image
+Featured Image<br>
 FIXME
 
 <br />
