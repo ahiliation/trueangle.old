@@ -6,6 +6,8 @@ comments: true
 categories: 
 ---
 
+<pre>
+
 Breakpoint 1, main () at memory1-p1.c:9
 9	  int megabyte = A_MEGABYTE;
 (gdb) next
@@ -42,3 +44,5 @@ $5 = 1
 (gdb) print exit_code
 No symbol "exit_code" in current context.
 (gdb) 
+
+</pre>
