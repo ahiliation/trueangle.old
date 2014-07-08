@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "tracing bit manipulation without branching"
+title: "tracing, bit manipulation without branching"
 date: 2014-07-08 13:07:31 +0000
 comments: true
 categories: 
