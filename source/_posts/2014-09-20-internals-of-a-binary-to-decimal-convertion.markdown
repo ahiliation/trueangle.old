@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "internals of a binary to decimal convertion"
+title: "internals of a binary to decimal conversion"
 date: 2014-09-20 14:38:45 +0000
 comments: true
 categories: 
